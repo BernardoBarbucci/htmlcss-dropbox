@@ -2,6 +2,59 @@
 *{
     margin: 0;
     padding: 0;
-    border: border-box;
+    box-sizing: border-box;
+}
+
+body{
     font-family:'Open Sans', sans-serif;
+}
+
+header{
+    height: 70px;
+    background-color: rgb(60, 173, 7);
+}
+
+main .jumbotron{
+    height: 680px;
+    background-color: rgb(180, 208, 231);
+}
+
+main .business-plan{
+    height: 1700px;
+    background-color: blue;
+}
+
+main .find-a-partner{
+    height: 680px;
+    background-color: red;
+}
+
+main .operations{
+    height: 1360px;
+    background-color: bisque;
+}
+
+main .clients{
+    height: 400px;
+    background-color: chocolate;
+}
+
+main .designit{
+    height: 400px;
+    background-color: darkcyan;
+}
+
+main .db-business{
+    height: 200px;
+    background-color: rgb(180, 208, 231);
+}
+
+main .faq{
+    height: 680px;
+}
+
+footer{
+    height: 400px;
+    background-color: black;
+    color: white;
 }
