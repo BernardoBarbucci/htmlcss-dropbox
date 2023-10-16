@@ -5,6 +5,23 @@
     box-sizing: border-box;
 }
 
+/*flex settings*/
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-j-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-ai-center{
+    display: flex;
+    align-items: center;
+}
+/*end flex settings*/
+
 body{
     font-family:'Open Sans', sans-serif;
 }
@@ -59,21 +76,7 @@ footer{
     color: white;
 }
 
-.flex-row{
-    display: flex;
-    flex-direction: row;
-}
-
-.flex-j-between{
-    display: flex;
-    justify-content: space-between;
-}
-
-.flex-ai-center{
-    display: flex;
-    align-items: center;
-}
-
+/*header*/
 header div p{
     margin-right: 1.5rem;
 }
@@ -85,6 +88,31 @@ header .head-left p:first-child{
 header .head-right button{
     height: 35px;
     width: 70px;
+    background-color: rgb(0, 97, 255);
+    color: white;
+    border: none;
+}
+/*end header*/
+
+/*main*/
+
+main .jumbotron .jumbo{
+    margin: 0 19.5rem;
+    padding-top: 3rem;
+}
+
+main .jumbotron .jumbo h1{
+    font-weight: 900;
+    font-size: 58px;
+}
+
+.jumbo-img img{
+    height: 25rem;
+}
+
+main .jumbotron .jumbo-text button{
+    height: 35px;
+    width: 170px;
     background-color: rgb(0, 97, 255);
     color: white;
     border: none;
