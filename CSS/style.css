@@ -27,7 +27,7 @@ body{
 }
 
 header{
-    height: 70px;
+    height: 80px;
     font-size: 15px;
 }
 
@@ -97,8 +97,8 @@ header .head-right button{
 /*main*/
 
 main .jumbotron .jumbo{
-    margin-left: 18rem;
-    margin-right: 18rem;
+    margin-left: 21.5rem;
+    margin-right: 21.5rem;
 }
 
 main .jumbotron h1{
@@ -109,11 +109,11 @@ main .jumbotron h1{
 }
 
 .jumbo-img img{
-    height: 22rem;
+    height: 30rem;
 }
 
 main .jumbotron .jumbo .jumbo-text{
-    font-size: 15px;
+    font-size: 17px;
 }
 
 main .jumbotron .jumbo-text button{
@@ -125,9 +125,15 @@ main .jumbotron .jumbo-text button{
 }
 
 main .jumbotron .jumbo .jumbo-text p{
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 .jumbo-text .annulla{
-    padding-top: 1rem;
+    padding-top: 2rem;
+}
+
+.fa-arrow-down{
+    padding-top: 3rem;
+    font-size: 50px;
+    font-weight: bold;
 }
