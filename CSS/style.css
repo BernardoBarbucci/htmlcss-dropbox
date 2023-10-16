@@ -38,7 +38,7 @@ main .jumbotron{
 
 main .business-plan{
     height: 1700px;
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
 }
 
 main .find-a-partner{
@@ -136,4 +136,25 @@ main .jumbotron .jumbo .jumbo-text p{
     padding-top: 3rem;
     font-size: 50px;
     font-weight: bold;
+}
+/*fine jumbotron*/
+
+/*business-plan*/
+main .business-plan{
+    margin: 12rem 27rem;
+    background-color: rgb(17, 17, 155);
+}
+
+main .business-plan .business-title h1{
+    font-weight: bold;
+    font-size: 45px;
+}
+
+main .business-plan .business-title .fatturazione p{
+    font-size: 17px;
+    color: white;
+    padding: ;
+    padding-right: 5rem;
+    padding-top: 7rem;
+    
 }
