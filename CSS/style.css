@@ -16,6 +16,11 @@
     justify-content: space-between;
 }
 
+.flex-j-center{
+    display: flex;
+    justify-content: center;
+}
+
 .flex-ai-center{
     display: flex;
     align-items: center;
@@ -170,4 +175,16 @@ main .columns .target{
     border-top: none;
     border-right: none;
     border-left: none;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .columns div .column-info button{
+    height: 2.5rem;
+    width: 12rem;
+    background-color: rgb(0, 97, 255);
+    color: white;
+    border: none;
 }
