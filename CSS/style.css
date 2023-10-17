@@ -41,13 +41,7 @@ main .jumbotron{
     background-color: rgb(180, 208, 231);
 }
 
-.container {
-    width: 980px;
-    height: 750px;
-    margin: 0 auto;
-}
-
-main .business-plan{
+main .container{
     height: 1700px;
     background-color: rgb(255, 255, 255);
 }
@@ -106,6 +100,12 @@ header .head-right button{
 /*end header*/
 
 /*main*/
+/*jumbotron*/
+.container-big {
+    width: 980px;
+    height: 750px;
+    margin: 0 auto;
+}
 
 main .jumbotron h1{
     padding: 3rem 0;
@@ -149,24 +149,24 @@ main .jumbotron .jumbo .jumbo-text p{
 }
 /*fine jumbotron*/
 
-/*business-plan*/
-main .business-plan{
-    margin: 10rem auto;
-    max-width: 32rem;
+/*container*/
+.container{
+    width: 800px;
+    margin: 0 auto;
 }
 
-main .business-plan .business-title h1{
+main .container .business-title h1{
     font-weight: bold;
     font-size: 40px;
+    padding-top: 8rem;
 }
 
-main .business-plan .business-title .fatturazione p{
+main .container .business-title .fatturazione p{
     font-size: 17px;
-    color: white;
     padding: 5rem 2.5rem 0rem 2.5rem;    
 }
 
-main .business-plan .columns{
+main .container .columns{
     border-color: rgba(202, 202, 202, 0.774);
     border-style: solid ;
     border-width: 1px;
@@ -186,21 +186,11 @@ main .columns .target{
 }
 
 /*spazio e posizionamento delle colonne rispettivamente una accanto all'altra*/
-main .business-plan .columns {
+main .container .columns {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.columns .professional,
-.columns .advanced,
-.columns .enterprise-azienda {
-    width: 14rem;
-}
-
-main .business-plan .columns .advanced,
-main .business-plan .columns .enterprise-azienda {
-    margin-left: 1rem;
+    
 }
 
 /*dettagli testi delle colonne*/
