@@ -192,6 +192,7 @@ main .container .columns {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: calc(100% / 3);
 }
 
 /*dettagli testi delle colonne*/
