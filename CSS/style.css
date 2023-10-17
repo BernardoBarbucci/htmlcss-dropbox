@@ -141,20 +141,17 @@ main .jumbotron .jumbo .jumbo-text p{
 
 /*business-plan*/
 main .business-plan{
-    margin: 12rem 27rem;
-    background-color: rgb(17, 17, 155);
+    margin: 10rem 27rem;
+    background-color: rgb(86, 86, 92);
 }
 
 main .business-plan .business-title h1{
     font-weight: bold;
-    font-size: 45px;
+    font-size: 40px;
 }
 
 main .business-plan .business-title .fatturazione p{
     font-size: 17px;
     color: white;
-    padding: ;
-    padding-right: 5rem;
-    padding-top: 7rem;
-    
+    padding: 5rem 2.5rem 0rem 2.5rem;    
 }
