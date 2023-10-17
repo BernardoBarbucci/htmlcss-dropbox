@@ -188,3 +188,16 @@ main .columns div .column-info button{
     color: white;
     border: none;
 }
+
+main .columns div .column-info{
+    padding: 1.5rem;
+}
+
+.column-info h1,
+.column-info h2,
+.column-info p,
+.column-info dl,
+.column-info dl p,
+.column-info button{
+    margin-bottom: 1rem; 
+}
