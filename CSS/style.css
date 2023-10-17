@@ -146,7 +146,8 @@ main .jumbotron .jumbo .jumbo-text p{
 
 /*business-plan*/
 main .business-plan{
-    margin: 10rem 27rem;
+    margin: 10rem auto;
+    max-width: 32rem;
 }
 
 main .business-plan .business-title h1{
@@ -161,8 +162,6 @@ main .business-plan .business-title .fatturazione p{
 }
 
 main .business-plan .columns{
-    width: 18rem;
-    height: 50rem;
     border-color: rgba(202, 202, 202, 0.774);
     border-style: solid ;
     border-width: 1px;
@@ -181,6 +180,25 @@ main .columns .target{
     justify-content: center;
 }
 
+/*spazio e posizionamento delle colonne rispettivamente una accanto all'altra*/
+main .business-plan .columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.columns .professional,
+.columns .advanced,
+.columns .enterprise-azienda {
+    width: 14rem;
+}
+
+main .business-plan .columns .advanced,
+main .business-plan .columns .enterprise-azienda {
+    margin-left: 1rem;
+}
+
+/*dettagli testi delle colonne*/
 main .columns div .column-info button{
     height: 2.5rem;
     width: 12rem;
@@ -195,9 +213,38 @@ main .columns div .column-info{
 
 .column-info h1,
 .column-info h2,
-.column-info p,
 .column-info dl,
 .column-info dl p,
 .column-info button{
-    margin-bottom: 1rem; 
+    margin-bottom: 1.25rem; 
 }
+
+.column-info h2{
+    font-size: 15px;
+}
+
+.column-info h1{
+    font-size: 22px;
+}
+
+.column-info .cost{
+    margin-bottom: 2.5rem;
+    color: grey;
+}
+
+.small-line{ 
+        width: 60px;
+        height: 1px;
+        background-color: rgba(202, 202, 202, 0.774);
+        margin: 3rem 0;
+}
+
+ul {
+    list-style: none;
+    font-size: 15px;
+}
+
+li{
+    margin-bottom: 1rem;
+}
+/*fine dettagli testi delle colonne*/
