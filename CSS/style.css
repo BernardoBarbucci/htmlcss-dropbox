@@ -162,8 +162,8 @@ main .container .business-title h1{
 }
 
 main .container .business-title .fatturazione p{
-    font-size: 17px;
-    padding: 5rem 2.5rem 0rem 2.5rem;    
+    font-size: 14px;
+    padding: 2.5rem 2.5rem 2.5rem 0rem;    
 }
 
 main .container .columns .professional,
@@ -185,10 +185,6 @@ main .columns .target{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.blue-fatt{
-    color: rgb(0, 97, 255);
 }
 
 /*spazio e posizionamento delle colonne rispettivamente una accanto all'altra*/
