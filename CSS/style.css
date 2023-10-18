@@ -25,6 +25,11 @@
     display: flex;
     align-items: center;
 }
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
 /*end flex settings*/
 
 body{
@@ -42,13 +47,12 @@ main .jumbotron{
 }
 
 main .container{
-    height: 1700px;
+    height: 1500px;
     background-color: rgb(255, 255, 255);
 }
 
-main .find-a-partner{
+main .find-a-partner .container{
     height: 550px;
-    background-color: red;
 }
 
 main .operations{
@@ -279,7 +283,9 @@ main .business-plan .horizontal-column .enterprise-team .target{
 }
 
 main .business-plan .horizontal-column .enterprise-team .column-info{
-    padding: 1.5rem;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 main .business-plan .horizontal-column .enterprise-team .column-info button{
@@ -299,3 +305,37 @@ main .business-plan .horizontal-column .enterprise-team .column-info p{
     /*finedettagli colonna orizzontale*/
 /*fine dettagli testi delle colonne*/
 
+/*inizio find a partner*/
+main .find-a-partner .container .col-left{
+    width: 65%;
+    height: 100%;
+    background-color: aqua;
+}
+
+main .find-a-partner .container .col-right{
+    width: 35%;
+    height: 100%;
+}
+
+main .find-a-partner .container .col-right h1{
+    font-size: 22px;
+    font-weight: bolder;
+    padding-bottom: 1.5rem;
+}
+
+main .find-a-partner .container .col-right p{
+    font-size: 14px;
+    padding-bottom: 2rem;
+}
+
+main .find-a-partner .container .col-right button{
+    width: 8.5rem;
+    height: 2.7rem;
+    font-size: 15px;
+    background-color: white;
+}
+
+main .find-a-partner .container .col-right .left-text{
+    padding: 4rem 2rem; 
+}
+/*fine find a partner*/
