@@ -191,6 +191,9 @@ main .columns .target{
 main .container .columns {
     display: flex;
     justify-content: space-between;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
 }
 
 main .container .columns .advanced{
@@ -254,7 +257,7 @@ li{
 dl{
     font-size: 13px;
 }
-    /*dettagli colonna orizzontale*/
+    /*dettagli (4) colonna orizzontale*/
 main .business-plan .horizontal-column .enterprise-team{
     border-color: rgba(202, 202, 202, 0.774);
     border-style: solid ;
@@ -272,8 +275,17 @@ main .business-plan .horizontal-column .enterprise-team .target{
     text-align: center;
 }
 
+main .business-plan .horizontal-column .enterprise-team .column-info{
+    padding: 1.5rem;
+}
 
-
+main .business-plan .horizontal-column .enterprise-team .column-info button{
+    height: 2.5rem;
+    width: 12rem;
+    background-color: rgb(0, 97, 255);
+    color: white;
+    border: none;
+}
     /*finedettagli colonna orizzontale*/
 /*fine dettagli testi delle colonne*/
 
