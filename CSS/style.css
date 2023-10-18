@@ -312,6 +312,8 @@ main .find-a-partner .container .col-left{
     background-color: aqua;
 }
 
+
+
 main .find-a-partner .container .col-right{
     width: 35%;
     height: 100%;
@@ -338,4 +340,6 @@ main .find-a-partner .container .col-right button{
 main .find-a-partner .container .col-right .left-text{
     padding: 4rem 2rem; 
 }
+
+
 /*fine find a partner*/
