@@ -46,17 +46,12 @@ main .jumbotron{
     background-color: rgb(180, 208, 231);
 }
 
-main .container{
-    height: 1500px;
-    background-color: rgb(255, 255, 255);
-}
-
 main .find-a-partner .container{
     height: 550px;
 }
 
 main .operations{
-    height: 1300px;
+    height: 1000px;
     background-color: bisque;
 }
 
@@ -358,6 +353,7 @@ main .operations .operations-title h1{
     padding-top: 6rem;
     padding-bottom: 2rem;
 }
+
 
 
 
