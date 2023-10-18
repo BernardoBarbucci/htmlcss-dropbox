@@ -254,6 +254,10 @@ li{
 dl{
     font-size: 13px;
 }
+
+.columns .column-info p{
+    font-size: 13px;
+}
     /*dettagli (4) colonna orizzontale*/
 main .business-plan .horizontal-column .enterprise-team{
     border-color: rgba(202, 202, 202, 0.774);
@@ -271,11 +275,11 @@ main .business-plan .horizontal-column .enterprise-team .target{
     border-left: none;
     text-align: center;
     height: 2.5rem;
+    line-height: 2.5rem;
 }
 
 main .business-plan .horizontal-column .enterprise-team .column-info{
     padding: 1.5rem;
-
 }
 
 main .business-plan .horizontal-column .enterprise-team .column-info button{
@@ -284,6 +288,13 @@ main .business-plan .horizontal-column .enterprise-team .column-info button{
     background-color: rgb(0, 97, 255);
     color: white;
     border: none;
+    position: relative;
+    bottom: 8rem;
+    left: 41.3rem;
+}
+
+main .business-plan .horizontal-column .enterprise-team .column-info p{
+    font-size: 13px;
 }
     /*finedettagli colonna orizzontale*/
 /*fine dettagli testi delle colonne*/
