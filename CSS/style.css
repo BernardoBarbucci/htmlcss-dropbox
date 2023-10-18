@@ -56,7 +56,7 @@ main .find-a-partner .container{
 }
 
 main .operations{
-    height: 1360px;
+    height: 1300px;
     background-color: bisque;
 }
 
@@ -347,3 +347,18 @@ main .find-a-partner .container .col-right .left-text{
     padding: 4rem 2rem; 
 }
 /*fine find a partner*/
+
+/*inizio operations*/
+main .operations .operations-title{
+    height: 15%;
+    background-color: brown;
+}
+
+main .operations .operations-title h1{
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+
+
+
+/*fine operations*/
