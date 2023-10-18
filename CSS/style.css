@@ -308,8 +308,7 @@ main .find-a-partner .container .col-left{
 main .find-a-partner .container .col-left img{
     width: 100%; 
     height: 100%;
-    object-fit: cover; 
-    
+    object-fit: cover;    
 }
 
     /*fine col-left e inizio col-right*/
@@ -345,13 +344,13 @@ main .find-a-partner .container .col-right .left-text{
 /*inizio operations*/
 /*operations-title*/
 main .operations .operations-title{
-    height: 15%;
-    background-color: brown;
+    height: 17%;
 }
-
+2
 main .operations .operations-title h1{
-    padding-top: 6rem;
-    padding-bottom: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    font-size: 30px;
 }
 /*fine operations-title*/
 /*inizio operations-columns*/
@@ -363,5 +362,9 @@ main .operations .six-col .top-columns > *{
     border-width: 1px;
 }
 
-
+main .operations .six-col img{
+    width: 100%; 
+    height: auto;
+    object-fit: cover; 
+}
 /*fine operations*/
