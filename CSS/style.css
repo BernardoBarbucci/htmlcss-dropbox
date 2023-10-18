@@ -191,17 +191,10 @@ main .columns .target{
 main .container .columns {
     display: flex;
     justify-content: space-between;
-    width: 30%;
-    display: flex;
-    justify-content: space-between;
 }
 
-main .container .columns .advanced{
-    margin-right: 2rem;
-}
-
-main .container .columns .professional{
-    margin-right: 2rem;
+main .container .columns > *{
+    flex-basis: 30%;
 }
 
 /*dettagli testi delle colonne*/
