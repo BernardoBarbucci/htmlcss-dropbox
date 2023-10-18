@@ -52,7 +52,6 @@ main .find-a-partner .container{
 
 main .operations{
     height: 1000px;
-    background-color: bisque;
 }
 
 main .clients{
@@ -344,6 +343,7 @@ main .find-a-partner .container .col-right .left-text{
 /*fine find a partner*/
 
 /*inizio operations*/
+/*operations-title*/
 main .operations .operations-title{
     height: 15%;
     background-color: brown;
@@ -353,8 +353,15 @@ main .operations .operations-title h1{
     padding-top: 6rem;
     padding-bottom: 2rem;
 }
+/*fine operations-title*/
+/*inizio operations-columns*/
 
-
+main .operations .six-col .top-columns > *{
+    width: calc(90% / 3);
+    border-color: rgba(202, 202, 202, 0.774);
+    border-style: solid ;
+    border-width: 1px;
+}
 
 
 /*fine operations*/
