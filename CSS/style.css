@@ -218,6 +218,10 @@ main .columns div .column-info{
     margin-bottom: 1.25rem; 
 }
 
+main .business-plan .container .columns .professional dl{
+    margin-bottom: 2.5rem;
+}
+
 .column-info h2{
     font-size: 15px;
 }
@@ -240,11 +244,11 @@ main .columns div .column-info{
 
 ul {
     list-style: none;
-    font-size: 15px;
 }
 
 li{
     margin-bottom: 1rem;
+    font-size: 13px;
 }
 
 dl{
@@ -266,10 +270,12 @@ main .business-plan .horizontal-column .enterprise-team .target{
     border-right: none;
     border-left: none;
     text-align: center;
+    height: 2.5rem;
 }
 
 main .business-plan .horizontal-column .enterprise-team .column-info{
     padding: 1.5rem;
+
 }
 
 main .business-plan .horizontal-column .enterprise-team .column-info button{
