@@ -309,10 +309,16 @@ main .business-plan .horizontal-column .enterprise-team .column-info p{
 main .find-a-partner .container .col-left{
     width: 65%;
     height: 100%;
-    background-color: aqua;
 }
 
+main .find-a-partner .container .col-left img{
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+    
+}
 
+    /*fine col-left e inizio col-right*/
 
 main .find-a-partner .container .col-right{
     width: 35%;
@@ -340,6 +346,4 @@ main .find-a-partner .container .col-right button{
 main .find-a-partner .container .col-right .left-text{
     padding: 4rem 2rem; 
 }
-
-
 /*fine find a partner*/
