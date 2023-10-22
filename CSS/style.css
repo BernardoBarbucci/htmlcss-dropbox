@@ -410,12 +410,14 @@ main .clients{
 main .designit{
     height: 400px;
     width: 100%;
-    background-color: darkcyan;
+    background-color: rgb(245, 245, 245);
 }
 
-.designit .col {
-    width: 50vh;
+.designit .col{
+    width: 48.2vh;
     height: 43vh;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .designit .col .image{
@@ -427,6 +429,13 @@ main .designit{
 }
 
 .designit .col .image img{
-    height: 50%;
     width: 50%;
+}
+
+.designit .col p{
+    font-size: 13px;
+}
+
+.designit .col .writer{
+    padding-bottom: 6rem;
 }
