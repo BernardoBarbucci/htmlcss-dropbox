@@ -410,12 +410,11 @@ main .clients{
 main .designit{
     height: 400px;
     width: 100%;
-    background-color: rgb(245, 245, 245);
 }
 
 .designit .col{
-    width: 48.2vh;
-    height: 43vh;
+    width: calc(100% / 3);
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -430,6 +429,7 @@ main .designit{
 
 .designit .col .image img{
     width: 50%;
+    filter: invert();
 }
 
 .designit .col p{
@@ -438,4 +438,41 @@ main .designit{
 
 .designit .col .writer{
     padding-bottom: 6rem;
+}
+
+main .designit .col:nth-child(2){
+    background-color: rgb(245, 245, 245);
+    padding: 1rem 1.5rem;
+}
+/*colori sfondi dei quadrati*/
+.bg-green{
+    background-color: rgb(162, 211, 155);
+}
+
+.bg-darkred{
+    background-color: rgb(97, 8, 43);
+}
+
+.bg-azzure{
+    background-color: rgb(0, 147, 206);
+}
+
+.bg-lightred{
+    background-color: rgb(255, 28, 28);
+}
+
+.bg-red{
+    background-color: rgb(213, 0, 31);
+}
+
+.bg-lightazzure{
+    background-color: rgb(180, 208, 231);
+}
+
+.bg-blue{
+    background-color: rgb(13, 36, 129);
+}
+
+.bg-yellow{
+    background-color: rgb(255, 216, 48);
 }
