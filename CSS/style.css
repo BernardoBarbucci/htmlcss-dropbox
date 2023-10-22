@@ -55,7 +55,7 @@ main .operations{
 }
 
 main .db-business{
-    height: 200px;
+    height: 250px;
     background-color: rgb(180, 208, 231);
 }
 
@@ -475,4 +475,21 @@ main .designit .col:nth-child(2){
 
 .bg-yellow{
     background-color: rgb(255, 216, 48);
+}
+/*designit finito*/
+/*db-business*/
+.db-business .container{
+    height: 100%;
+}
+
+.db-business .container .col-right button{
+    height: 2rem;
+    width: 14rem;
+    border: none;
+}
+
+.db-business .container .col-left h1{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(97, 8, 43);
 }
