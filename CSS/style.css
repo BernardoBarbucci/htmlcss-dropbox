@@ -51,7 +51,7 @@ main .find-a-partner .container{
 }
 
 main .operations{
-    height: 1100px;
+    height: 1200px;
 }
 
 main .designit{
@@ -282,7 +282,7 @@ main .business-plan .horizontal-column .enterprise-team .column-info button{
     width: 12rem;
     background-color: rgb(0, 97, 255);
     color: white;
-    border: none;
+    border: black;
     position: relative;
     bottom: 8rem;
     left: 41.3rem;
@@ -290,6 +290,10 @@ main .business-plan .horizontal-column .enterprise-team .column-info button{
 
 main .business-plan .horizontal-column .enterprise-team .column-info p{
     font-size: 13px;
+}
+
+main .business-plan .horizontal-column{
+    margin-bottom: 4rem;
 }
     /*finedettagli colonna orizzontale*/
 /*fine dettagli testi delle colonne*/
@@ -406,3 +410,5 @@ main .clients .clients-text p{
 main .clients{
     height: 220px;
 }
+/*fine clients*/
+/*inizio designit*/
