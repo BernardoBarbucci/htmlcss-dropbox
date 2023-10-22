@@ -54,11 +54,6 @@ main .operations{
     height: 1200px;
 }
 
-main .designit{
-    height: 400px;
-    background-color: darkcyan;
-}
-
 main .db-business{
     height: 200px;
     background-color: rgb(180, 208, 231);
@@ -412,3 +407,26 @@ main .clients{
 }
 /*fine clients*/
 /*inizio designit*/
+main .designit{
+    height: 400px;
+    width: 100%;
+    background-color: darkcyan;
+}
+
+.designit .col {
+    width: 50vh;
+    height: 43vh;
+}
+
+.designit .col .image{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.designit .col .image img{
+    height: 50%;
+    width: 50%;
+}
