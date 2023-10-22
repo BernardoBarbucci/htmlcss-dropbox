@@ -60,7 +60,7 @@ main .db-business{
 }
 
 main .faq{
-    height: 680px;
+    height: 600px;
 }
 
 footer{
@@ -486,10 +486,22 @@ main .designit .col:nth-child(2){
     height: 2rem;
     width: 14rem;
     border: none;
+    background-color: white;
 }
 
 .db-business .container .col-left h1{
     font-size: 30px;
     font-weight: bolder;
     color: rgb(97, 8, 43);
+}
+/*fine db-business*/
+/*faq*/
+.faq .container h1{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 4rem;
+}
+
+.faq .container .question{
+    height: 80px;
 }
