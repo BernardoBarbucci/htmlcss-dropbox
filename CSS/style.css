@@ -16,6 +16,11 @@
     justify-content: space-between;
 }
 
+.flex-j-evenly{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .flex-j-center{
     display: flex;
     justify-content: center;
@@ -91,7 +96,6 @@ header .head-right button{
 /*jumbotron*/
 .container-big {
     width: 1200px;
-    height: 750px;
     margin: 0 auto;
 }
 
@@ -505,3 +509,21 @@ main .designit .col:nth-child(2){
 .faq .container .question{
     height: 80px;
 }
+/*fine faq*/
+/*footer*/
+.grey-text{
+    color: grey;
+}
+
+.list h1{
+    padding-bottom: 2rem;
+}
+
+footer .container-big{
+    height: 100%;
+}
+
+footer .language{
+    background-color: black;
+}
+/*fine*/
